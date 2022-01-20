@@ -1,0 +1,25 @@
+.input-div {
+	display: flex;
+	flex-direction: column;
+	justify-content: right;
+	align-items: right;
+	margin: 5px 15px;
+	padding: 5px 5px;
+}
+
+.input-style{
+	border-radius: 9px;
+	height: 30px;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.input-error{
+	border-radius: 9px;
+	height: 30px;
+	font-style: italic;
+	font-size: 15px;
+	border: 1px solid red;
+	color: red;
+	background-color: rosybrown;
+}

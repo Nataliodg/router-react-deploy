@@ -1,0 +1,23 @@
+.label-container {
+	display: flex;
+	flex-direction: column;
+	margin: 5px;
+	padding: 0px 10px;
+}
+.label-label {
+	font-family: cursive;
+	font-size: 20px;
+	margin: 25px 0px -10px 10px;
+	color: black;
+	text-shadow: 
+				-0.7px 0 white , 
+				0 0.7px white ,
+	  			0.7px 0 white ,
+	  			0 -0.7px white ;
+}
+
+@media only screen and (max-width:450px){
+	.label-label{
+		color:white;
+	}
+}

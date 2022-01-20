@@ -1,0 +1,39 @@
+.create-user-input-div{
+	margin: 5px 15px;
+	padding: 5px 10px;
+}
+
+.create-user-input-style{
+	border-radius: 9px;
+	height: 30px;
+	width: 100%;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.create-user-input-error{
+	border-radius: 9px;
+	height: 30px;
+	font-style: italic;
+	font-size: 15px;
+	border: 1px solid red;
+	color: red;
+	background-color: rosybrown;
+}
+
+@media only screen and (max-width:450px){
+.create-user-input-div{
+
+	margin-left: 5px;
+	padding: 5px 10px;
+	width: 85%;
+}
+
+.create-user-input-style{
+	border-radius: 9px;
+	height: 30px;
+	width: 100%;
+	font-style: italic;
+	font-size: 15px;
+}
+}

@@ -1,0 +1,23 @@
+.create-user-label-container{
+	margin: 5px;
+	padding: 0px 25px;
+}
+
+.create-user-label{
+	font-family: cursive;
+	font-size: 20px;
+	color: black;
+	text-shadow: 
+				-0.7px 0 white , 
+				0 0.7px white ,
+	  			0.7px 0 white ,
+	  			0 -0.7px white ;
+}
+@media only screen and (max-width:450px){
+	.create-user-label{
+		color:white;
+	}
+	.create-user-label-container{
+		margin-bottom: -10px;
+	}
+}

@@ -1,0 +1,131 @@
+.home-container {
+/* 	display: flex;
+	flex-direction: column;
+	justify-content: center; */
+	background-color: #011b45;
+	opacity: 0.9;
+	height: 100%;
+	width: 40%;
+	margin: 10px;
+	padding: 45px 0px;
+	border-radius: 30px;
+	box-shadow: 3px 3px 20px 13px rgba(0,0,0,.4);
+}
+.home-label{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: cursive;
+	font-size: 20px;
+	margin: 10px;
+	color: black;
+	text-shadow: 
+				-0.7px 0 white , 
+				0 0.7px white ,
+	  			0.7px 0 white ,
+	  			0 -0.7px white ;
+}
+
+.home-h1{
+	display: flex;
+	justify-content: right;
+	/* margin-bottom: 70px; */
+	font-size: 70px;
+	text-shadow: 0.2em 0.5em 0.1em #600,
+	  		-0.3em 0.1em 0.1em #060,
+	  		0.4em -0.3em 0.1em #D4AC0D;
+}
+
+.home-h3{
+	margin: 5px 5px;
+	margin-bottom: -40px;
+
+}
+
+.home-h2{
+	margin-left: -220px;
+	margin-bottom: -190px;
+	display: flex;
+	justify-content: right;
+}
+
+.button-home{
+	background-color: white;
+	border-radius: 15px;
+	height: 30px;
+	font-family: cursive;
+	font-size: 20px;
+	padding: 5px 5px;
+	height: 35px;
+	cursor: pointer;
+	margin: 55px 215px 0px 215px;
+	color: white;
+	text-shadow: 
+				-1px 0 black , 
+				0 1px black ,
+	  			1px 0 black ,
+	  			0 -1px black ;
+}
+
+
+
+
+.button-home:hover {
+	background-color: #e0b313;
+	color: #011b45;
+}
+
+.button-div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+@media only screen and (max-width:850px){
+.home-h3{
+	width: 37%;
+}
+.home-h1{
+	width: 30%;
+}
+}
+@media only screen and (max-width:450px){
+.home-container{
+	width: 90%;
+	height: 350px;
+	margin-left:140px;	
+
+}
+.home-h1{
+	margin-left:-65px;	
+	font-size: 45px;
+	width: 25%;
+	/* margin: 0px 0px; */
+
+	/* margin-left:30px;	 */
+
+}
+.home-h2{
+	font-size: 30px;
+	color: white;
+	width: 45%;
+	margin: 100px 0px -200px -200px;
+	/* margin-left: -150px;
+	margin-bottom: -275px; */
+}
+.home-h3{
+	font-size: 35px;
+	color: white;
+	width: 57%;
+	margin: 0px 0px;
+	/* margin-left:-10px;
+	margin-bottom: -9px; */
+}
+.button-home{
+	margin-top: 200px;
+}
+
+.button-div{
+	color: black;
+}
+}
