@@ -9,7 +9,7 @@ import CreateUser from './pages/CreateUser/CreateUser.js';
 function App() {
   return (
         <div className="App">
-          <Routes basename="/router-react-deploy">
+          <Routes>
             <Switch>
               <Route exact path="/" element={<Login/>}>
               <Route exact path="/home" element={<Home/>}/>
