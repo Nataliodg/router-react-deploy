@@ -1,4 +1,4 @@
-import { Router, Route} from "react-router-dom";
+import { Routes, Route} from "react-router-dom";
 import './App.css';
 
 import Login from './pages/Login/Login.js';
@@ -8,7 +8,7 @@ import CreateUser from './pages/CreateUser/CreateUser.js';
 
 function App() {
   return (
-      <Router basename="/router-react-deploy">
+      <Routes basename="/router-react-deploy">
         <div className="App">
           <Route exact path="/">
             <Login/>
@@ -20,7 +20,7 @@ function App() {
             <CreateUser/>
           </Route>
         </div>
-      </Router>
+      </Routes>
         
   );
 }
