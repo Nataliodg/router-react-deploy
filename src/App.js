@@ -11,9 +11,9 @@ function App() {
         <div className="App">
           <Routes>
             <Switch>
-              <Route exact path="/" element={<Login/>}>
-              <Route exact path="/home" element={<Home/>}/>
-              <Route exact path="/create-user" element={<CreateUser/>}/>
+              <Route exact path="/" element={Login}>
+              <Route exact path="/home" element={Home}/>
+              <Route exact path="/create-user" element={CreateUser}/>
             </Switch>
           </Routes>
         </div>
