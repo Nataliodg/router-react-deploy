@@ -10,10 +10,10 @@ function App() {
   return (
         <div className="App">
           <Routes basename="/router-react-deploy">
-              <Route exact path="/" element={<Login/>}>
-              <Route exact path="/home" element={<Home/>}/>
-              <Route exact path="/create-user" element={<CreateUser/>}/>
-          </Routes>,
+            <Route exact path="/" element={<Login/>}>
+            <Route exact path="/home" element={<Home/>}/>
+            <Route exact path="/create-user" element={<CreateUser/>}/>
+          </Routes>
         </div>
 
         
