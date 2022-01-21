@@ -1,23 +1,27 @@
-import { Routes, Route} from "react-router-dom";
-import './App.css';
+import React, { Component } from 'react';
+import { HashRouter, Route, Link } from "react-router-dom";
 
-import Login from './pages/Login/Login.js';
-import Home from './pages/Home/Home.js';
-import CreateUser from './pages/CreateUser/CreateUser.js';
+class App extends Component {
+  render() {
+    return (
+      <HashRouter basename="/router-react-deploy">
+        <div>
+          <ul>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About</Link></li>
+          </ul>
 
-
-function App() {
-  return (
-        <div className="App">
-          <Routes>
-          
-              <Route exact path="/" element={<Login/>} />
-              <Route exact path="/home" element={<Home/>} />
-              <Route exact path="/create-user" element={<CreateUser/>} />
-            
-          </ Routes>
-        </ div>
-  );
+          <hr />
+  
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+        </div>
+      </HashRouter>
+    );
+  }
 }
+
+const Home = () => <div><h2>Home</h2></div>
+const About = () => <div><h2>About</h2></div>
 
 export default App;
