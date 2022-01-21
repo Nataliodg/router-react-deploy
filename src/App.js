@@ -1,9 +1,9 @@
 import { Router, Route} from "react-router-dom";
 import './App.css';
 
-import Login from './pages/Login/Login.js';
-import Home from './pages/Home/Home.js';
-import CreateUser from './pages/CreateUser/CreateUser.js';
+import {Login} from './pages/Login/Login.js';
+import {Home} from './pages/Home/Home.js';
+import {CreateUser} from './pages/CreateUser/CreateUser.js';
 
 
 function App() {
