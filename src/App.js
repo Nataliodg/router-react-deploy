@@ -8,19 +8,20 @@ import CreateUser from './pages/CreateUser/CreateUser.js';
 
 function App() {
   return (
-      <Routes basename="/router-react-deploy">
         <div className="App">
-          <Route exact path="/">
-            <Login/>
-          </Route>
-          <Route exact path="/home" >
-            <Home/>
-          </Route>
-          <Route exact path="/create-user">
-            <CreateUser/>
-          </Route>
+          <Routes basename="/router-react-deploy">
+              <Route exact path="/">
+                <Login/>
+              </Route>
+              <Route exact path="/home" >
+                <Home/>
+              </Route>
+              <Route exact path="/create-user">
+                <CreateUser/>
+              </Route>
+          </Routes>
         </div>
-      </Routes>
+
         
   );
 }

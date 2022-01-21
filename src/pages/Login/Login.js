@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import './Login.css'
 
 import Home from '../Home/Home.js';
